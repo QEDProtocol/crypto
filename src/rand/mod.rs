@@ -8,6 +8,9 @@ use crate::{Felt, FieldElement, Word, ZERO};
 mod rpo;
 pub use rpo::RpoRandomCoin;
 
+mod rpx;
+pub use rpx::RpxRandomCoin;
+
 /// Pseudo-random element generator.
 ///
 /// An instance can be used to draw, uniformly at random, base field elements as well as [Word]s.
